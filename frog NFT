@@ -10,7 +10,7 @@ contract FrogNFT is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIdCounter;
 
-    // Struct to store frog attributes
+    // Struct to store frog attributess
     struct Frog {
         string species;    // e.g., "Tree Frog", "Bullfrog", "Poison Dart"
         string color;      // e.g., "Green", "Blue", "Spotted Red"
